@@ -1,0 +1,555 @@
++ Isakhar Malla
+Index 23
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Isakhar, Malla
+(dummyfirst dummylast Isakhar)->(Isakhar Malla NULL)->
++ Hermun Kim
+Index 24
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Hermun, Kim
+(dummyfirst dummylast Hermun)->(Hermun Kim NULL)->
++ Carlos Ochilov
+Index 21
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Carlos, Ochilov
+(dummyfirst dummylast Carlos)->(Carlos Ochilov NULL)->
+? Isakhar Malla
+Index 23
+(dummyfirst dummylast Isakhar)->(Isakhar Malla NULL)->
+*** Performing hashRetrieval on Isakhar, Malla
+Yes, the record is in the database!
++ Michael Zheng
+Index 25
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Michael, Zheng
+(dummyfirst dummylast Michael)->(Michael Zheng NULL)->
++ Jasmine Malla
+Index 23
+(dummyfirst dummylast Isakhar)->(Isakhar Malla NULL)->
+***Performing hashInsert on Jasmine, Malla
+(dummyfirst dummylast Isakhar)->(Isakhar Malla Jasmine)->(Jasmine Malla NULL)->
++ Elyon Aminov
+Index 20
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Elyon, Aminov
+(dummyfirst dummylast Elyon)->(Elyon Aminov NULL)->
++ Hermun Kim
+Index 24
+(dummyfirst dummylast Hermun)->(Hermun Kim NULL)->
+***Performing hashInsert on Hermun, Kim
+*** Warning, the record is already in the database!
++ Jasmin Atwal
+Index 18
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Jasmin, Atwal
+(dummyfirst dummylast Jasmin)->(Jasmin Atwal NULL)->
+? Sweyaksha Webster
+Index 10
+(dummyfirst dummylast NULL)->
+*** Performing hashRetrieval on Sweyaksha, Webster
+No, the record is not in the database!
++ Mohammed Aucacama
+Index 28
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Mohammed, Aucacama
+(dummyfirst dummylast Mohammed)->(Mohammed Aucacama NULL)->
++ Longcheng Ochilov
+Index 21
+(dummyfirst dummylast Carlos)->(Carlos Ochilov NULL)->
+***Performing hashInsert on Longcheng, Ochilov
+(dummyfirst dummylast Carlos)->(Carlos Ochilov Longcheng)->(Longcheng Ochilov NULL)->
++ Sweyaksha Webster
+Index 10
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Sweyaksha, Webster
+(dummyfirst dummylast Sweyaksha)->(Sweyaksha Webster NULL)->
++ Kyle Boodoosingh
+Index 9
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Kyle, Boodoosingh
+(dummyfirst dummylast Kyle)->(Kyle Boodoosingh NULL)->
+- Longcheng Ochilov
+Index 21
+(dummyfirst dummylast Carlos)->(Carlos Ochilov Longcheng)->(Longcheng Ochilov NULL)->
+*** Performing hashDelete on Longcheng, Ochilov
+(dummyfirst dummylast Carlos)->(Carlos Ochilov NULL)->
++ Pengdwende Cesa
+Index 22
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Pengdwende, Cesa
+(dummyfirst dummylast Pengdwende)->(Pengdwende Cesa NULL)->
+? David Chowdhury
+Index 12
+(dummyfirst dummylast NULL)->
+*** Performing hashRetrieval on David, Chowdhury
+No, the record is not in the database!
++ Kushal Zheng
+Index 25
+(dummyfirst dummylast Michael)->(Michael Zheng NULL)->
+***Performing hashInsert on Kushal, Zheng
+(dummyfirst dummylast Kushal)->(Kushal Zheng Michael)->(Michael Zheng NULL)->
++ Mohammed Aucacama
+Index 28
+(dummyfirst dummylast Mohammed)->(Mohammed Aucacama NULL)->
+***Performing hashInsert on Mohammed, Aucacama
+*** Warning, the record is already in the database!
+- Sweyaksha Kim
+Index 24
+(dummyfirst dummylast Hermun)->(Hermun Kim NULL)->
+*** Performing hashDelete on Sweyaksha, Kim
+*** Warning, the record is *not* in the database!
++ David Chowdhury
+Index 12
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on David, Chowdhury
+(dummyfirst dummylast David)->(David Chowdhury NULL)->
++ Chewantha Chowdhury
+Index 12
+(dummyfirst dummylast David)->(David Chowdhury NULL)->
+***Performing hashInsert on Chewantha, Chowdhury
+(dummyfirst dummylast Chewantha)->(Chewantha Chowdhury David)->(David Chowdhury NULL)->
+? Kushal Zheng
+Index 25
+(dummyfirst dummylast Kushal)->(Kushal Zheng Michael)->(Michael Zheng NULL)->
+*** Performing hashRetrieval on Kushal, Zheng
+Yes, the record is in the database!
++ David Chowdhury
+Index 12
+(dummyfirst dummylast Chewantha)->(Chewantha Chowdhury David)->(David Chowdhury NULL)->
+***Performing hashInsert on David, Chowdhury
+*** Warning, the record is already in the database!
+- Jasmine Malla
+Index 23
+(dummyfirst dummylast Isakhar)->(Isakhar Malla Jasmine)->(Jasmine Malla NULL)->
+*** Performing hashDelete on Jasmine, Malla
+(dummyfirst dummylast Isakhar)->(Isakhar Malla NULL)->
++ Dylan Coleman
+Index 9
+(dummyfirst dummylast Kyle)->(Kyle Boodoosingh NULL)->
+***Performing hashInsert on Dylan, Coleman
+(dummyfirst dummylast Kyle)->(Kyle Boodoosingh Dylan)->(Dylan Coleman NULL)->
++ Upesh Guira
+Index 10
+(dummyfirst dummylast Sweyaksha)->(Sweyaksha Webster NULL)->
+***Performing hashInsert on Upesh, Guira
+(dummyfirst dummylast Upesh)->(Upesh Guira Sweyaksha)->(Sweyaksha Webster NULL)->
+- Kushal Zheng
+Index 25
+(dummyfirst dummylast Kushal)->(Kushal Zheng Michael)->(Michael Zheng NULL)->
+*** Performing hashDelete on Kushal, Zheng
+(dummyfirst dummylast Michael)->(Michael Zheng NULL)->
++ Tasif Jang
+Index 21
+(dummyfirst dummylast Carlos)->(Carlos Ochilov NULL)->
+***Performing hashInsert on Tasif, Jang
+(dummyfirst dummylast Tasif)->(Tasif Jang Carlos)->(Carlos Ochilov NULL)->
++ Miroo Jayasundera
+Index 2
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Miroo, Jayasundera
+(dummyfirst dummylast Miroo)->(Miroo Jayasundera NULL)->
+- Jasmine Malla
+Index 23
+(dummyfirst dummylast Isakhar)->(Isakhar Malla NULL)->
+*** Performing hashDelete on Jasmine, Malla
+*** Warning, the record is *not* in the database!
++ Wen Johnson
+Index 20
+(dummyfirst dummylast Elyon)->(Elyon Aminov NULL)->
+***Performing hashInsert on Wen, Johnson
+(dummyfirst dummylast Elyon)->(Elyon Aminov Wen)->(Wen Johnson NULL)->
++ Marvin Karki
+Index 7
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Marvin, Karki
+(dummyfirst dummylast Marvin)->(Marvin Karki NULL)->
+- Sweyaksha Kim
+Index 24
+(dummyfirst dummylast Hermun)->(Hermun Kim NULL)->
+*** Performing hashDelete on Sweyaksha, Kim
+*** Warning, the record is *not* in the database!
++ Junjie Kazi
+Index 28
+(dummyfirst dummylast Mohammed)->(Mohammed Aucacama NULL)->
+***Performing hashInsert on Junjie, Kazi
+(dummyfirst dummylast Mohammed)->(Mohammed Aucacama Junjie)->(Junjie Kazi NULL)->
++ Richard Kim
+Index 24
+(dummyfirst dummylast Hermun)->(Hermun Kim NULL)->
+***Performing hashInsert on Richard, Kim
+(dummyfirst dummylast Hermun)->(Hermun Kim Richard)->(Richard Kim NULL)->
+- Davron Cai
+Index 11
+(dummyfirst dummylast NULL)->
+*** Performing hashDelete on Davron, Cai
+*** Warning, the record is *not* in the database!
++ Brian Lee
+Index 13
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Brian, Lee
+(dummyfirst dummylast Brian)->(Brian Lee NULL)->
++ Samriddha Kim
+Index 24
+(dummyfirst dummylast Hermun)->(Hermun Kim Richard)->(Richard Kim NULL)->
+***Performing hashInsert on Samriddha, Kim
+(dummyfirst dummylast Hermun)->(Hermun Kim Richard)->(Richard Kim Samriddha)->(Samriddha Kim NULL)->
++ Fidiana Lei
+Index 17
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Fidiana, Lei
+(dummyfirst dummylast Fidiana)->(Fidiana Lei NULL)->
++ Josephine Li
+Index 23
+(dummyfirst dummylast Isakhar)->(Isakhar Malla NULL)->
+***Performing hashInsert on Josephine, Li
+(dummyfirst dummylast Josephine)->(Josephine Li Isakhar)->(Isakhar Malla NULL)->
+- Zilong Kharel
+Index 27
+(dummyfirst dummylast NULL)->
+*** Performing hashDelete on Zilong, Kharel
+*** Warning, the record is *not* in the database!
++ Donghee Shrestha
+Index 15
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Donghee, Shrestha
+(dummyfirst dummylast Donghee)->(Donghee Shrestha NULL)->
++ Andy Lin
+Index 5
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Andy, Lin
+(dummyfirst dummylast Andy)->(Andy Lin NULL)->
++ Avenash Luu
+Index 19
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Avenash, Luu
+(dummyfirst dummylast Avenash)->(Avenash Luu NULL)->
+? Brian Lee
+Index 13
+(dummyfirst dummylast Brian)->(Brian Lee NULL)->
+*** Performing hashRetrieval on Brian, Lee
+Yes, the record is in the database!
++ Davron Cai
+Index 11
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Davron, Cai
+(dummyfirst dummylast Davron)->(Davron Cai NULL)->
++ Chelsea Mujaj
+Index 28
+(dummyfirst dummylast Mohammed)->(Mohammed Aucacama Junjie)->(Junjie Kazi NULL)->
+***Performing hashInsert on Chelsea, Mujaj
+(dummyfirst dummylast Mohammed)->(Mohammed Aucacama Junjie)->(Junjie Kazi Chelsea)->(Chelsea Mujaj NULL)->
++ Gursharn Pho
+Index 10
+(dummyfirst dummylast Upesh)->(Upesh Guira Sweyaksha)->(Sweyaksha Webster NULL)->
+***Performing hashInsert on Gursharn, Pho
+(dummyfirst dummylast Upesh)->(Upesh Guira Gursharn)->(Gursharn Pho Sweyaksha)->(Sweyaksha Webster NULL)->
+- Samriddha Kim
+Index 24
+(dummyfirst dummylast Hermun)->(Hermun Kim Richard)->(Richard Kim Samriddha)->(Samriddha Kim NULL)->
+*** Performing hashDelete on Samriddha, Kim
+(dummyfirst dummylast Hermun)->(Hermun Kim Richard)->(Richard Kim NULL)->
+- Donghee Shrestha
+Index 15
+(dummyfirst dummylast Donghee)->(Donghee Shrestha NULL)->
+*** Performing hashDelete on Donghee, Shrestha
+(dummyfirst dummylast NULL)->
++ Mahima Qu
+Index 21
+(dummyfirst dummylast Tasif)->(Tasif Jang Carlos)->(Carlos Ochilov NULL)->
+***Performing hashInsert on Mahima, Qu
+(dummyfirst dummylast Tasif)->(Tasif Jang Carlos)->(Carlos Ochilov Mahima)->(Mahima Qu NULL)->
++ Zilong Kharel
+Index 27
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Zilong, Kharel
+(dummyfirst dummylast Zilong)->(Zilong Kharel NULL)->
++ Pravesh Ramnarine
+Index 24
+(dummyfirst dummylast Hermun)->(Hermun Kim Richard)->(Richard Kim NULL)->
+***Performing hashInsert on Pravesh, Ramnarine
+(dummyfirst dummylast Hermun)->(Hermun Kim Richard)->(Richard Kim Pravesh)->(Pravesh Ramnarine NULL)->
++ Tenzin Rodriguez
+Index 11
+(dummyfirst dummylast Davron)->(Davron Cai NULL)->
+***Performing hashInsert on Tenzin, Rodriguez
+(dummyfirst dummylast Davron)->(Davron Cai Tenzin)->(Tenzin Rodriguez NULL)->
++ George Singh
+Index 10
+(dummyfirst dummylast Upesh)->(Upesh Guira Gursharn)->(Gursharn Pho Sweyaksha)->(Sweyaksha Webster NULL)->
+***Performing hashInsert on George, Singh
+(dummyfirst dummylast Upesh)->(Upesh Guira Gursharn)->(Gursharn Pho George)->(George Singh Sweyaksha)->(Sweyaksha Webster NULL)->
++ Bingming Thakur
+Index 1
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Bingming, Thakur
+(dummyfirst dummylast Bingming)->(Bingming Thakur NULL)->
++ LinBo Tilija
+Index 21
+(dummyfirst dummylast Tasif)->(Tasif Jang Carlos)->(Carlos Ochilov Mahima)->(Mahima Qu NULL)->
+***Performing hashInsert on LinBo, Tilija
+(dummyfirst dummylast Tasif)->(Tasif Jang Carlos)->(Carlos Ochilov Mahima)->(Mahima Qu LinBo)->(LinBo Tilija NULL)->
+? Davron Cai
+Index 11
+(dummyfirst dummylast Davron)->(Davron Cai Tenzin)->(Tenzin Rodriguez NULL)->
+*** Performing hashRetrieval on Davron, Cai
+Yes, the record is in the database!
++ Seratul Diaz
+Index 27
+(dummyfirst dummylast Zilong)->(Zilong Kharel NULL)->
+***Performing hashInsert on Seratul, Diaz
+(dummyfirst dummylast Seratul)->(Seratul Diaz Zilong)->(Zilong Kharel NULL)->
++ Roberto Ehsan
+Index 13
+(dummyfirst dummylast Brian)->(Brian Lee NULL)->
+***Performing hashInsert on Roberto, Ehsan
+(dummyfirst dummylast Roberto)->(Roberto Ehsan Brian)->(Brian Lee NULL)->
++ Derek Khanal
+Index 8
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Derek, Khanal
+(dummyfirst dummylast Derek)->(Derek Khanal NULL)->
++ Bijaya Sajjad
+Index 18
+(dummyfirst dummylast Jasmin)->(Jasmin Atwal NULL)->
+***Performing hashInsert on Bijaya, Sajjad
+(dummyfirst dummylast Jasmin)->(Jasmin Atwal Bijaya)->(Bijaya Sajjad NULL)->
+? Roberto Ehsan
+Index 13
+(dummyfirst dummylast Roberto)->(Roberto Ehsan Brian)->(Brian Lee NULL)->
+*** Performing hashRetrieval on Roberto, Ehsan
+Yes, the record is in the database!
++ Jonathan Zhang
+Index 18
+(dummyfirst dummylast Jasmin)->(Jasmin Atwal Bijaya)->(Bijaya Sajjad NULL)->
+***Performing hashInsert on Jonathan, Zhang
+(dummyfirst dummylast Jasmin)->(Jasmin Atwal Bijaya)->(Bijaya Sajjad Jonathan)->(Jonathan Zhang NULL)->
++ Ben Gajda
+Index 17
+(dummyfirst dummylast Fidiana)->(Fidiana Lei NULL)->
+***Performing hashInsert on Ben, Gajda
+(dummyfirst dummylast Ben)->(Ben Gajda Fidiana)->(Fidiana Lei NULL)->
++ James Yu
+Index 16
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on James, Yu
+(dummyfirst dummylast James)->(James Yu NULL)->
++ Megan Shrestha
+Index 15
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Megan, Shrestha
+(dummyfirst dummylast Megan)->(Megan Shrestha NULL)->
+- Alex Devereux
+Index 5
+(dummyfirst dummylast Andy)->(Andy Lin NULL)->
+*** Performing hashDelete on Alex, Devereux
+*** Warning, the record is *not* in the database!
++ Damian Ambia
+Index 1
+(dummyfirst dummylast Bingming)->(Bingming Thakur NULL)->
+***Performing hashInsert on Damian, Ambia
+(dummyfirst dummylast Damian)->(Damian Ambia Bingming)->(Bingming Thakur NULL)->
++ Larry Andrade
+Index 20
+(dummyfirst dummylast Elyon)->(Elyon Aminov Wen)->(Wen Johnson NULL)->
+***Performing hashInsert on Larry, Andrade
+(dummyfirst dummylast Elyon)->(Elyon Aminov Larry)->(Larry Andrade Wen)->(Wen Johnson NULL)->
++ Umair Azarpayvand
+Index 16
+(dummyfirst dummylast James)->(James Yu NULL)->
+***Performing hashInsert on Umair, Azarpayvand
+(dummyfirst dummylast Umair)->(Umair Azarpayvand James)->(James Yu NULL)->
+? Alex Devereux
+Index 5
+(dummyfirst dummylast Andy)->(Andy Lin NULL)->
+*** Performing hashRetrieval on Alex, Devereux
+No, the record is not in the database!
++ Rashad Bernard
+Index 6
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Rashad, Bernard
+(dummyfirst dummylast Rashad)->(Rashad Bernard NULL)->
+- Heteng Zhang
+Index 18
+(dummyfirst dummylast Jasmin)->(Jasmin Atwal Bijaya)->(Bijaya Sajjad Jonathan)->(Jonathan Zhang NULL)->
+*** Performing hashDelete on Heteng, Zhang
+*** Warning, the record is *not* in the database!
++ Robert Bista
+Index 15
+(dummyfirst dummylast Megan)->(Megan Shrestha NULL)->
+***Performing hashInsert on Robert, Bista
+(dummyfirst dummylast Robert)->(Robert Bista Megan)->(Megan Shrestha NULL)->
++ John Cohen
+Index 11
+(dummyfirst dummylast Davron)->(Davron Cai Tenzin)->(Tenzin Rodriguez NULL)->
+***Performing hashInsert on John, Cohen
+(dummyfirst dummylast Davron)->(Davron Cai John)->(John Cohen Tenzin)->(Tenzin Rodriguez NULL)->
++ James Deciutiis
+Index 26
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on James, Deciutiis
+(dummyfirst dummylast James)->(James Deciutiis NULL)->
++ Thomas Diaz
+Index 27
+(dummyfirst dummylast Seratul)->(Seratul Diaz Zilong)->(Zilong Kharel NULL)->
+***Performing hashInsert on Thomas, Diaz
+(dummyfirst dummylast Seratul)->(Seratul Diaz Thomas)->(Thomas Diaz Zilong)->(Zilong Kharel NULL)->
++ Shudip Taha
+Index 6
+(dummyfirst dummylast Rashad)->(Rashad Bernard NULL)->
+***Performing hashInsert on Shudip, Taha
+(dummyfirst dummylast Rashad)->(Rashad Bernard Shudip)->(Shudip Taha NULL)->
++ Jino Ellis
+Index 0
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Jino, Ellis
+(dummyfirst dummylast Jino)->(Jino Ellis NULL)->
++ Dhawa Farooq
+Index 17
+(dummyfirst dummylast Ben)->(Ben Gajda Fidiana)->(Fidiana Lei NULL)->
+***Performing hashInsert on Dhawa, Farooq
+(dummyfirst dummylast Dhawa)->(Dhawa Farooq Ben)->(Ben Gajda Fidiana)->(Fidiana Lei NULL)->
+- Robert Bista
+Index 15
+(dummyfirst dummylast Robert)->(Robert Bista Megan)->(Megan Shrestha NULL)->
+*** Performing hashDelete on Robert, Bista
+(dummyfirst dummylast Megan)->(Megan Shrestha NULL)->
++ Bertin Farooqi
+Index 1
+(dummyfirst dummylast Damian)->(Damian Ambia Bingming)->(Bingming Thakur NULL)->
+***Performing hashInsert on Bertin, Farooqi
+(dummyfirst dummylast Damian)->(Damian Ambia Bertin)->(Bertin Farooqi Bingming)->(Bingming Thakur NULL)->
++ Vincenzo Gutierrez
+Index 3
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on Vincenzo, Gutierrez
+(dummyfirst dummylast Vincenzo)->(Vincenzo Gutierrez NULL)->
++ Heteng Zhang
+Index 18
+(dummyfirst dummylast Jasmin)->(Jasmin Atwal Bijaya)->(Bijaya Sajjad Jonathan)->(Jonathan Zhang NULL)->
+***Performing hashInsert on Heteng, Zhang
+(dummyfirst dummylast Jasmin)->(Jasmin Atwal Bijaya)->(Bijaya Sajjad Heteng)->(Heteng Zhang Jonathan)->(Jonathan Zhang NULL)->
+? Robert Bista
+Index 15
+(dummyfirst dummylast Megan)->(Megan Shrestha NULL)->
+*** Performing hashRetrieval on Robert, Bista
+No, the record is not in the database!
++ Alex Devereux
+Index 5
+(dummyfirst dummylast Andy)->(Andy Lin NULL)->
+***Performing hashInsert on Alex, Devereux
+(dummyfirst dummylast Alex)->(Alex Devereux Andy)->(Andy Lin NULL)->
++ Michael Kim
+Index 24
+(dummyfirst dummylast Hermun)->(Hermun Kim Richard)->(Richard Kim Pravesh)->(Pravesh Ramnarine NULL)->
+***Performing hashInsert on Michael, Kim
+(dummyfirst dummylast Hermun)->(Hermun Kim Michael)->(Michael Kim Richard)->(Richard Kim Pravesh)->(Pravesh Ramnarine NULL)->
++ Ryan Kousountidis
+Index 27
+(dummyfirst dummylast Seratul)->(Seratul Diaz Thomas)->(Thomas Diaz Zilong)->(Zilong Kharel NULL)->
+***Performing hashInsert on Ryan, Kousountidis
+(dummyfirst dummylast Seratul)->(Seratul Diaz Thomas)->(Thomas Diaz Zilong)->(Zilong Kharel Ryan)->(Ryan Kousountidis NULL)->
+- Shudip Taha
+Index 6
+(dummyfirst dummylast Rashad)->(Rashad Bernard Shudip)->(Shudip Taha NULL)->
+*** Performing hashDelete on Shudip, Taha
+(dummyfirst dummylast Rashad)->(Rashad Bernard NULL)->
++ Matin Kwon
+Index 24
+(dummyfirst dummylast Hermun)->(Hermun Kim Michael)->(Michael Kim Richard)->(Richard Kim Pravesh)->(Pravesh Ramnarine NULL)->
+***Performing hashInsert on Matin, Kwon
+(dummyfirst dummylast Hermun)->(Hermun Kim Michael)->(Michael Kim Richard)->(Richard Kim Matin)->(Matin Kwon Pravesh)->(Pravesh Ramnarine NULL)->
++ Kenley Lama
+Index 8
+(dummyfirst dummylast Derek)->(Derek Khanal NULL)->
+***Performing hashInsert on Kenley, Lama
+(dummyfirst dummylast Derek)->(Derek Khanal Kenley)->(Kenley Lama NULL)->
++ John Legendre
+Index 14
+(dummyfirst dummylast NULL)->
+***Performing hashInsert on John, Legendre
+(dummyfirst dummylast John)->(John Legendre NULL)->
++ Afm Syedan
+Index 14
+(dummyfirst dummylast John)->(John Legendre NULL)->
+***Performing hashInsert on Afm, Syedan
+(dummyfirst dummylast John)->(John Legendre Afm)->(Afm Syedan NULL)->
++ Bakhtiyorjon Manno
+Index 3
+(dummyfirst dummylast Vincenzo)->(Vincenzo Gutierrez NULL)->
+***Performing hashInsert on Bakhtiyorjon, Manno
+(dummyfirst dummylast Vincenzo)->(Vincenzo Gutierrez Bakhtiyorjon)->(Bakhtiyorjon Manno NULL)->
+- Megan Shrestha
+Index 15
+(dummyfirst dummylast Megan)->(Megan Shrestha NULL)->
+*** Performing hashDelete on Megan, Shrestha
+(dummyfirst dummylast NULL)->
++ Franklin Meneses
+Index 8
+(dummyfirst dummylast Derek)->(Derek Khanal Kenley)->(Kenley Lama NULL)->
+***Performing hashInsert on Franklin, Meneses
+(dummyfirst dummylast Derek)->(Derek Khanal Kenley)->(Kenley Lama Franklin)->(Franklin Meneses NULL)->
++ Muhammad Mohamed
+Index 6
+(dummyfirst dummylast Rashad)->(Rashad Bernard NULL)->
+***Performing hashInsert on Muhammad, Mohamed
+(dummyfirst dummylast Rashad)->(Rashad Bernard Muhammad)->(Muhammad Mohamed NULL)->
+- Afm Syedan
+Index 14
+(dummyfirst dummylast John)->(John Legendre Afm)->(Afm Syedan NULL)->
+*** Performing hashDelete on Afm, Syedan
+(dummyfirst dummylast John)->(John Legendre NULL)->
+? Megan Shrestha
+Index 15
+(dummyfirst dummylast NULL)->
+*** Performing hashRetrieval on Megan, Shrestha
+No, the record is not in the database!
+? Afm Syedan
+Index 14
+(dummyfirst dummylast John)->(John Legendre NULL)->
+*** Performing hashRetrieval on Afm, Syedan
+No, the record is not in the database!
++ Preety Nazamy
+Index 23
+(dummyfirst dummylast Josephine)->(Josephine Li Isakhar)->(Isakhar Malla NULL)->
+***Performing hashInsert on Preety, Nazamy
+(dummyfirst dummylast Josephine)->(Josephine Li Isakhar)->(Isakhar Malla Preety)->(Preety Nazamy NULL)->
++ Luis Subick
+Index 5
+(dummyfirst dummylast Alex)->(Alex Devereux Andy)->(Andy Lin NULL)->
+***Performing hashInsert on Luis, Subick
+(dummyfirst dummylast Alex)->(Alex Devereux Andy)->(Andy Lin Luis)->(Luis Subick NULL)->
++ Ryan Nicolas
+Index 27
+(dummyfirst dummylast Seratul)->(Seratul Diaz Thomas)->(Thomas Diaz Zilong)->(Zilong Kharel Ryan)->(Ryan Kousountidis NULL)->
+***Performing hashInsert on Ryan, Nicolas
+(dummyfirst dummylast Seratul)->(Seratul Diaz Thomas)->(Thomas Diaz Zilong)->(Zilong Kharel Ryan)->(Ryan Kousountidis Ryan)->(Ryan Nicolas NULL)->
+- Bijaya Sajjad
+Index 18
+(dummyfirst dummylast Jasmin)->(Jasmin Atwal Bijaya)->(Bijaya Sajjad Heteng)->(Heteng Zhang Jonathan)->(Jonathan Zhang NULL)->
+*** Performing hashDelete on Bijaya, Sajjad
+(dummyfirst dummylast Jasmin)->(Jasmin Atwal Heteng)->(Heteng Zhang Jonathan)->(Jonathan Zhang NULL)->
++ Hajab Prykiel
+Index 17
+(dummyfirst dummylast Dhawa)->(Dhawa Farooq Ben)->(Ben Gajda Fidiana)->(Fidiana Lei NULL)->
+***Performing hashInsert on Hajab, Prykiel
+(dummyfirst dummylast Dhawa)->(Dhawa Farooq Ben)->(Ben Gajda Fidiana)->(Fidiana Lei Hajab)->(Hajab Prykiel NULL)->
++ Mohab Rasulov
+Index 21
+(dummyfirst dummylast Tasif)->(Tasif Jang Carlos)->(Carlos Ochilov Mahima)->(Mahima Qu LinBo)->(LinBo Tilija NULL)->
+***Performing hashInsert on Mohab, Rasulov
+(dummyfirst dummylast Tasif)->(Tasif Jang Carlos)->(Carlos Ochilov Mahima)->(Mahima Qu Mohab)->(Mohab Rasulov LinBo)->(LinBo Tilija NULL)->
++ Wengang Rodriguez
+Index 11
+(dummyfirst dummylast Davron)->(Davron Cai John)->(John Cohen Tenzin)->(Tenzin Rodriguez NULL)->
+***Performing hashInsert on Wengang, Rodriguez
+(dummyfirst dummylast Davron)->(Davron Cai John)->(John Cohen Tenzin)->(Tenzin Rodriguez Wengang)->(Wengang Rodriguez NULL)->
+- Luis Subick
+Index 5
+(dummyfirst dummylast Alex)->(Alex Devereux Andy)->(Andy Lin Luis)->(Luis Subick NULL)->
+*** Performing hashDelete on Luis, Subick
+(dummyfirst dummylast Alex)->(Alex Devereux Andy)->(Andy Lin NULL)->
+? Bijaya Sajjad
+Index 18
+(dummyfirst dummylast Jasmin)->(Jasmin Atwal Heteng)->(Heteng Zhang Jonathan)->(Jonathan Zhang NULL)->
+*** Performing hashRetrieval on Bijaya, Sajjad
+No, the record is not in the database!
